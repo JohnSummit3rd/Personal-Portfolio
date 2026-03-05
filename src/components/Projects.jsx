@@ -4,38 +4,41 @@ import bmiGif from "../assets/bmi.gif"
 import srfGif from "../assets/subredditfinder.gif"
 import portGif from "../assets/portfolio.gif"
 
+import pattern from "../assets/pattern.svg"
+import square from "../assets/square.svg"
+
 function Projects() {
 
   return (
     <div className="bg-[#282c33] light:bg-[#f3f6fa] min-h-screen flex flex-col relative overflow-x-hidden">
       <img
-        src="src/assets/pattern.svg"
-        alt=""
+        src={pattern}
+        alt="pattern"
         className="hidden lg:block absolute top-[10%] left-[-80px] h-[160px] pointer-events-none"
       />
       <img
-        src="src/assets/square.svg"
-        alt=""
+        src={square}
+        alt="square"
         className="hidden lg:block absolute top-[20%] right-[-50px] h-[120px] pointer-events-none"
       />
       <img
-        src="src/assets/square.svg"
-        alt=""
+        src={square}
+        alt="square"
         className="hidden lg:block absolute top-[35%] right-[-30px] h-[140px] pointer-events-none"
       />
       <img
-        src="src/assets/pattern.svg"
-        alt=""
+        src={pattern}
+        alt="pattern"
         className="hidden lg:block absolute top-[40%] left-[-70px] h-[120px] pointer-events-none"
       />
       <img
-        src="src/assets/pattern.svg"
-        alt=""
+        src={pattern}
+        alt="pattern"
         className="hidden lg:block absolute top-[55%] right-[-40px] h-[120px] pointer-events-none"
       />
       <img
-        src="src/assets/square.svg"
-        alt=""
+        src={square}
+        alt="square"
         className="hidden lg:block absolute bottom-[15%] left-[-100px] h-[180px] pointer-events-none"
       />
       <div className="flex-grow pt-[60px] px-[20px] pb-[60px]">

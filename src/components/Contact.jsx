@@ -1,33 +1,37 @@
 import ContactForm from "./ContactForm";
 import ContactCard from "./ContactCard";
 
+import pattern from "../assets/pattern.svg"
+import square from "../assets/square.svg"
+import geometric from "../assets/geometric.svg"
+
 function Contact() {
   return (
     <>
       <div className="bg-[#282c33] light:bg-[#f3f6fa] min-h-screen flex flex-col relative overflow-hidden-x">
         <img
-          src="src/assets/pattern.svg"
-          alt=""
+          src={pattern}
+          alt="pattern"
           className="hidden lg:block absolute top-[8%] left-[-60px] h-[120px] pointer-events-none"
         />
         <img
-          src="src/assets/square.svg"
-          alt=""
+          src={square}
+          alt="square"
           className="hidden lg:block absolute top-[22%] right-[-50px] h-[140px] pointer-events-none"
         />
         <img
-          src="src/assets/pattern.svg"
-          alt=""
+          src={pattern}
+          alt="pattern"
           className="hidden lg:block absolute top-[40%] left-[-80px] h-[150px] pointer-events-none"
         />
         <img
-          src="src/assets/square.svg"
-          alt=""
+          src={square}
+          alt="square"
           className="hidden lg:block absolute top-[55%] right-[-70px] h-[120px] pointer-events-none"
         />
         <img
-          src="src/assets/square.svg"
-          alt=""
+          src={square}
+          alt="square"
           className="hidden lg:block absolute bottom-[15%] left-[-90px] h-[180px] pointer-events-none"
         />
         <div className="flex-grow pt-[60px] px-[40px] pb-[60px]">
@@ -39,7 +43,7 @@ function Contact() {
             </div>
             <div className="flex justify-between gap-5">
               <div className="hidden md:flex w-1/2 items-center justify-center border border-[#abb2bf]">
-                <img src="src/assets/geometric.svg" alt="geometric" className="hidden md:block w-50 h-50 animate-spin-scale" />
+                <img src={geometric} alt="geometric" className="hidden md:block w-50 h-50 animate-spin-scale" />
               </div>
               <ContactForm />
             </div>

@@ -1,27 +1,30 @@
 import BorderedCard from "./BorderedCard";
 
+import pattern from "../assets/pattern.svg"
+import square from "../assets/square.svg"
+
 function AboutMe() {
   return (
     <>
       <div className="bg-[#282c33] light:bg-[#f3f6fa] min-h-screen pt-[60px] px-[20px] pb-[60px] relative overflow-hidden-x">
         <img
-          src="src/assets/pattern.svg"
-          alt=""
+          src={pattern}
+          alt="pattern"
           className="hidden lg:block absolute top-[5%] left-[-70px] h-[140px] pointer-events-none"
         />
         <img
-          src="src/assets/square.svg"
-          alt=""
+          src={square}
+          alt="square"
           className="hidden lg:block absolute top-[25%] right-[-60px] h-[130px] pointer-events-none"
         />
         <img
-          src="src/assets/pattern.svg"
-          alt=""
+          src={pattern}
+          alt="pattern"
           className="hidden lg:block absolute top-[45%] left-[-50px] h-[120px] pointer-events-none"
         />
         <img
-          src="src/assets/square.svg"
-          alt=""
+          src={square}
+          alt="square"
           className="hidden lg:block absolute top-[60%] right-[-40px] h-[110px] pointer-events-none"
         />
         <section className="max-w-7xl mx-auto">

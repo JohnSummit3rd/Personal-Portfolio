@@ -12,77 +12,83 @@ import bmiGif from "../assets/bmi.gif"
 import srfGif from "../assets/subredditfinder.gif"
 import portGif from "../assets/portfolio.gif"
 
+import pattern from "../assets/pattern.svg"
+import square from "../assets/square.svg"
+import geometric from "../assets/geometric.svg"
+
 function Home() {
   return (
     <div>
-      <div className="bg-[#282c33] light:bg-[#f3f6fa] relative overflow-x-hidden">
-        <img
-          src="src/assets/pattern.svg"
-          alt=""
-          className="hidden lg:block absolute top-[15%] left-[-80px] h-[160px] pointer-events-none"
-        />
+      <div className="bg-[#282c33] light:bg-[#f3f6fa] relative overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none overflow-hidden">
+          <img
+            src={pattern}
+            alt="pattern"
+            className="hidden lg:block absolute top-[15%] left-[-80px] h-[160px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/square.svg"
-          alt=""
-          className="hidden lg:block absolute top-[10%] right-[-50px] h-[120px] pointer-events-none"
-        />
+          <img
+            src={square}
+            alt="square"
+            className="hidden lg:block absolute top-[10%] right-[-50px] h-[120px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/square.svg"
-          alt=""
-          className="hidden lg:block absolute top-[22%] right-[-30px] h-[140px] pointer-events-none"
-        />
+          <img
+            src={square}
+            alt="square"
+            className="hidden lg:block absolute top-[22%] right-[-30px] h-[140px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/pattern.svg"
-          alt=""
-          className="hidden lg:block absolute top-[35%] right-[-40px] h-[120px] pointer-events-none"
-        />
+          <img
+            src={pattern}
+            alt="pattern"
+            className="hidden lg:block absolute top-[35%] right-[-40px] h-[120px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/square.svg"
-          alt=""
-          className="hidden lg:block absolute top-[30%] left-[-70px] h-[120px] pointer-events-none"
-        />
+          <img
+            src={square}
+            alt="square"
+            className="hidden lg:block absolute top-[30%] left-[-70px] h-[120px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/pattern.svg"
-          alt=""
-          className="hidden lg:block absolute top-[45%] left-[-80px] h-[160px] pointer-events-none"
-        />
+          <img
+            src={pattern}
+            alt="pattern"
+            className="hidden lg:block absolute top-[45%] left-[-80px] h-[160px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/pattern.svg"
-          alt=""
-          className="hidden lg:block absolute top-[65%] right-[-40px] h-[120px] pointer-events-none"
-        />
+          <img
+            src={pattern}
+            alt="pattern"
+            className="hidden lg:block absolute top-[65%] right-[-40px] h-[120px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/pattern.svg"
-          alt=""
-          className="hidden lg:block absolute top-[85%] right-[-50px] h-[140px] pointer-events-none"
-        />
+          <img
+            src={pattern}
+            alt="pattern"
+            className="hidden lg:block absolute top-[85%] right-[-50px] h-[140px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/pattern.svg"
-          alt=""
-          className="hidden lg:block absolute top-[60%] left-[-60px] h-[160px] pointer-events-none"
-        />
+          <img
+            src={pattern}
+            alt="pattern"
+            className="hidden lg:block absolute top-[60%] left-[-60px] h-[160px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/square.svg"
-          alt=""
-          className="hidden lg:block absolute top-[45%] right-[-70px] h-[120px] pointer-events-none"
-        />
+          <img
+            src="src/assets/square.svg"
+            alt=""
+            className="hidden lg:block absolute top-[45%] right-[-70px] h-[120px] pointer-events-none"
+          />
 
-        <img
-          src="src/assets/square.svg"
-          alt=""
-          className="hidden lg:block absolute bottom-[20%] left-[-100px] h-[180px] pointer-events-none"
-        />
-        <div className="px-[20px]">
-          <AnimatedSection className="front-page flex flex-col items-center min-h-[calc(100vh-60px)] md:min-h-screen justify-center">
+          <img
+            src={square}
+            alt="square"
+            className="hidden lg:block absolute bottom-[20%] left-[-100px] h-[180px] pointer-events-none"
+          />
+        </div>
+        <div className="px-[20px] relative z-10">
+          <AnimatedSection className="front-page flex flex-col items-center min-h-[calc(100vh-60px)] justify-center">
             <Typewriter text="AARON ZHANG" />
             <h1 className="text-xl text-white light:text-[#1e2228] font-medium text-center md:text-4xl md:w-[75%]">Aspiring <span className="text-[#7ec0ee] light:text-[#5aa0cc]">Frontend Developer</span> & <span className="text-[#7ec0ee] light:text-[#5aa0cc]">Software Engineer</span></h1>
             <Link to="/contact">
@@ -95,11 +101,11 @@ function Home() {
             <h1 className="text-2xl md:text-4xl md:font-semibold text-white light:text-[#1e2228] font-medium mb-10 lg:text-5xl"><span className="text-[#7ec0ee] light:text-[#5aa0cc]">//</span>skills</h1>
             <div className="flex md:flex-row md:justify-between md:gap-10">
               <div className="hidden md:block md:w-1/2 relative">
-                <img src="src/assets/pattern.svg" alt="pattern" className="absolute top-[5%] left-[5%] h-[100px]" />
-                <img src="src/assets/square.svg" alt="square" className="absolute top-[20%] left-[65%] h-[70px]" />
-                <img src="src/assets/pattern.svg" alt="pattern" className="absolute top-[40%] left-[25%] h-[80px]" />
-                <img src="src/assets/square.svg" alt="square" className="absolute top-[60%] left-[75%] h-[100px]" />
-                <img src="src/assets/geometric.svg" alt="geometric" className="absolute top-[80%] left-[15%] h-[150px]" />
+                <img src={pattern} alt="pattern" className="absolute top-[5%] left-[5%] h-[100px]" />
+                <img src={square} alt="square" className="absolute top-[20%] left-[65%] h-[70px]" />
+                <img src={pattern} alt="pattern" className="absolute top-[40%] left-[25%] h-[80px]" />
+                <img src={square} alt="square" className="absolute top-[60%] left-[75%] h-[100px]" />
+                <img src={geometric} alt="geometric" className="absolute top-[80%] left-[15%] h-[150px]" />
               </div>
               <div className="w-full md:w-1/2 grid grid-cols-2 gap-5 items-start">
                 <BorderedCard
@@ -178,22 +184,22 @@ function Home() {
               </div>
               <div className="hidden md:block md:w-1/2 relative">
                 <img
-                  src="src/assets/pattern.svg"
+                  src={pattern}
                   alt="pattern"
                   className="absolute top-[5%] left-[5%] h-[90px]"
                 />
                 <img
-                  src="src/assets/pattern.svg"
+                  src={pattern}
                   alt="pattern"
                   className="absolute top-[20%] right-[10%] h-[100px]"
                 />
                 <img
-                  src="src/assets/geometric.svg"
+                  src={geometric}
                   alt="geometric"
                   className="absolute top-[50%] left-[15%] h-[130px]"
                 />
                 <img
-                  src="src/assets/square.svg"
+                  src={square}
                   alt="square"
                   className="absolute top-[60%] left-[75%] h-[100px] opacity-85"
                 />
@@ -202,20 +208,20 @@ function Home() {
           </AnimatedSection>
           <AnimatedSection className="contact-me-page relative overflow-hidden flex flex-col w-full max-w-7xl mx-auto mt-30 md:mt-50">
             <img
-              src="src/assets/square.svg"
-              alt=""
+              src={square}
+              alt="square"
               className="hidden md:block absolute top-14 left-[-40px] h-[100px] pointer-events-none"
             />
 
             <img
-              src="src/assets/pattern.svg"
-              alt=""
+              src={pattern}
+              alt="pattern"
               className="hidden md:block absolute bottom-20 right-[30px] h-[100px] pointer-events-none"
             />
 
             <img
-              src="src/assets/geometric.svg"
-              alt=""
+              src={geometric}
+              alt="geometric"
               className="hidden md:block absolute top-2/3 left-2/5 h-[140px] opacity-70 pointer-events-none"
             />
             <h1 className="text-2xl text-white light:text-[#1e2228] font-medium mb-10 md:text-4xl md:font-semibold lg:text-5xl"><span className="text-[#7ec0ee] light:text-[#5aa0cc]">//</span>contact-me</h1>
