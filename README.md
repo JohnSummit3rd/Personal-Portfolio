@@ -1,16 +1,21 @@
-# React + Vite
+# 💻 Personal Portfolio
+A responsive personal portfolio website where I showcase my projects and details about my developer journey, built with React and Framer Motion. Each page on the website highlights important information about me.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔧 Technologies
+- React
+- Tailwind CSS
+- React Router
+- Framer Motion
+- Vite
+  
+## ✨ Features
+- Active links to other pages within the website
+- Natural feeling animations when scrolling the website
+- Light and dark mode button
+- Responsive adapts to different screen sizes
 
-Currently, two official plugins are available:
+## 🎈 The Process
+I wanted a good way to showcase my developer journey to myself and other people, so creating a personal portfolio felt like the perfect way. I decided to go with React because I wanted to get more practice with it, I included Tailwind as its a CSS framework I wanted to use. I started with designing the main home page then decided on the other pages I wanted to include later down the track. I ended up creating a personal portfolio I am very proud of!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚦The Website
+Here is the live link:
