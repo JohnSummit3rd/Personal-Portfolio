@@ -6,7 +6,7 @@ import square from "../assets/square.svg"
 function AboutMe() {
   return (
     <>
-      <div className="bg-[#282c33] light:bg-[#f3f6fa] min-h-screen pt-[60px] px-[20px] pb-[60px] relative overflow-hidden-x">
+      <div className="bg-[#282c33] light:bg-[#f3f6fa] min-h-screen pt-[60px] px-[20px] pb-[60px] relative overflow-x-hidden">
         <img
           src={pattern}
           alt="pattern"

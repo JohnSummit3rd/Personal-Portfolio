@@ -8,7 +8,7 @@ import geometric from "../assets/geometric.svg"
 function Contact() {
   return (
     <>
-      <div className="bg-[#282c33] light:bg-[#f3f6fa] min-h-screen flex flex-col relative overflow-hidden-x">
+      <div className="bg-[#282c33] light:bg-[#f3f6fa] min-h-screen flex flex-col relative overflow-x-hidden">
         <img
           src={pattern}
           alt="pattern"
