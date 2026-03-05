@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-fira: Fira Code, "sans-serif";
+}
+
+@custom-variant light (&:where(.light, .light *));
+
+@keyframes spin-scale {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(1.08) rotate(180deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+.animate-spin-scale {
+  animation: spin-scale 10s linear infinite;
+}
