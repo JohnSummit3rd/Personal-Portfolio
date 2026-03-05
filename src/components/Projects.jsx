@@ -67,7 +67,7 @@ function Projects() {
               <ProjectCard
                 languages="ReactJS TailwindCSS NextJS"
                 title="Aaron Zhang"
-                description="Aaron Zhang is my personal portfolio website where I showcase all of my work and my journey as a software engineer"
+                description="Aaron Zhang is my personal portfolio website where I showcase all of my developer work and my journey as a software engineer"
                 gitlink="https://github.com/JohnSummit3rd/Personal-Portfolio"
                 weblink="https://personal-portfolio-mu-fawn.vercel.app/"
                 gif={portGif}

@@ -22,7 +22,7 @@ function ProjectCard({ languages, title, description, gitlink, weblink, gif }) {
       </div>
 
       {/* DESCRIPTION */}
-      <div className="border-b border-[#abb2bf] text-white light:text-[#1e2228] px-3 py-2 md:text-lg lg:text-xl">
+      <div className="border-b border-[#abb2bf] text-white light:text-[#1e2228] px-3 py-2 md:text-lg lg:text-xl ">
         <span className="font-semibold">{title}</span>
         <br />
         <br />

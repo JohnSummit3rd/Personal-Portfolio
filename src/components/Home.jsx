@@ -15,7 +15,6 @@ import portGif from "../assets/portfolio.gif"
 import pattern from "../assets/pattern.svg"
 import square from "../assets/square.svg"
 import geometric from "../assets/geometric.svg"
-import email from "../assets/email.svg"
 
 function Home() {
   return (
