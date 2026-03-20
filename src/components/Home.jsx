@@ -11,6 +11,7 @@ import AnimatedItem from "./AnimatedItem";
 import bmiGif from "../assets/bmi.gif"
 import srfGif from "../assets/subredditfinder.gif"
 import portGif from "../assets/portfolio.gif"
+import animeGif from "../assets/animeRandomiser.gif"
 
 import pattern from "../assets/pattern.svg"
 import square from "../assets/square.svg"
@@ -161,6 +162,16 @@ function Home() {
                   title="Aaron Zhang"
                   description="Aaron Zhang is my personal portfolio website where I showcase all of my work and my journey as a software engineer"
                   gif={portGif}
+                />
+              </AnimatedItem>
+              <AnimatedItem className="w-full md:w-[48%]">
+                <ProjectCard
+                  languages="ReactJS TypeScript HTML CSS Javascript API"
+                  title="Anime Randomiser"
+                  description="Anime Randomiser is a web app that randomly generates an Anime when the button is clicked uisng the Jikan API"
+                  gitlink="https://github.com/JohnSummit3rd/anime-randomiser"
+                  weblink="https://anime-randomiser.vercel.app/"
+                  gif={animeGif}
                 />
               </AnimatedItem>
             </AnimatedStagger>

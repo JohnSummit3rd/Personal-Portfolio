@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import bmiGif from "../assets/bmi.gif"
 import srfGif from "../assets/subredditfinder.gif"
 import portGif from "../assets/portfolio.gif"
+import animeGif from "../assets/animeRandomiser.gif"
 
 import pattern from "../assets/pattern.svg"
 import square from "../assets/square.svg"
@@ -71,6 +72,14 @@ function Projects() {
                 gitlink="https://github.com/JohnSummit3rd/Personal-Portfolio"
                 weblink="https://personal-portfolio-mu-fawn.vercel.app/"
                 gif={portGif}
+              />
+              <ProjectCard
+                languages="ReactJS TypeScript HTML CSS Javascript API"
+                title="Anime Randomiser"
+                description="Anime Randomiser is a web app that randomly generates an Anime when the button is clicked uisng the Jikan API"
+                gitlink="https://github.com/JohnSummit3rd/anime-randomiser"
+                weblink="https://anime-randomiser.vercel.app/"
+                gif={animeGif}
               />
             </div>
           </section>
